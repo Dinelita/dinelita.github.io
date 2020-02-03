@@ -216,7 +216,7 @@
 					    return x;
 					 }
 					 a=[true, 42, “Ada”, 2, “pizza”]
-					 swap(a);
+					console.log (swap(a));
 
 
 
@@ -224,4 +224,11 @@
 		//Escala el Array - Dado un array arr y un número num, multiplica todos los valores en el array arr por el número num, y devuelve el array arr modificado. Por ejemplo, escalaArray([1,2,3], 3] debería devolver [3,6,9].
 		//Resultado Ejercicio 14
 
-				function 
+				function escale(x){
+					for (var i = 0; i < x.length; i++) {
+						x[i]=x[i]*3;
+					}
+					return x;
+				}
+				a=[1,2,3];
+				console.log (escale(a));
